@@ -1,0 +1,75 @@
+body{
+		background-color:#f5f5f5;
+}
+.name{
+	color:#f5f5f5;
+}
+.intro{
+	background-color:#999;
+	color:black;
+}
+.profile{
+	margin:0px;
+	text-align: center;
+	color:#f5f5f5;
+}
+.center{
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+}
+.About{
+	color:#f5f5f5;
+}
+.About p{
+	font-size:15px;
+}
+.contact{
+	background: white;
+	min-width: 100px;
+	max-width: 500px;
+	margin: auto;
+	padding-top: 10px;
+	background-color: white;
+	border-radius: 25px;
+	padding-bottom:1px;
+}
+.contact label{
+	font-family:segoe ui;
+	margin-left: 25px;
+	color:#888;
+}
+input{
+	border-radius:10px;
+	color:#888;
+	border : 1px;
+	background-color: #f5f5f5;
+	margin-top:5px;
+	padding-left: 5px;
+	padding-right: 250px;
+	padding-bottom: 18px;
+	padding-top: 18px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+}
+textarea{
+	border-radius:10px;
+	color:#888;
+	border : 1px;
+	background-color: #f5f5f5;
+	margin-top:5px;
+	padding-left: 5px;
+	padding-right: 50px;
+	padding-bottom: 18px;
+	padding-top: 18px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+}
+.button{
+	background-color: #f5f5f5;
+	padding :10px;
+	align-items: center;
+	justify-content: center;
+	margin-left: 200px;
+	border-radius: 10px;
+}
