@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task3</title>
+</head>
+<body>
+	<script>
+		function divisible(num){
+			let myNum;
+			let ourNum = [];
+			for(var i=1;i<=num;i++){
+				if(i%2 == 0 && i%3 == 0 && i%5 == 0){
+					myNum = "yu-gi-oh";
+				}
+				else if(i%3 == 0 && i%5 == 0 ){
+					myNum = "gi-oh";
+				}
+				else if(i%2 == 0 && i%3 == 0 ){
+					myNum = "yu-gi";
+				}
+				else if(i%2 == 0 && i%5 == 0 ){
+					 myNum = "yu-oh";
+				}
+				else if(i%5 == 0){
+					 myNum = "oh";
+				}
+				else if(i%3 == 0){
+					myNum = "gi";	
+				}
+				else if(i%2 == 0){
+					myNum = "yu";
+				}
+				else{
+					myNum = i;
+				}
+				ourNum.push(myNum);
+			}
+			console.log(ourNum);
+			return ourNum;
+		}
+
+		divisible(100);
+		divisible(50);
+	</script>
+</body>
+</html>
